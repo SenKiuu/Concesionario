@@ -1,0 +1,90 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(32, 32, 32, 0.562);
+    background-image: url('../Imagenes/911fondo.jpg');
+    background-size: cover; /* Para cubrir todo el tamaño del área */
+    background-position: center; /* Para centrar la imagen */
+    background-repeat: no-repeat; /* Para que no se repita la imagen */
+}
+
+/*------------------------------------------------------------------------------------------------*/
+header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    background-color: #c7c2c2;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li button {
+    background-color: transparent;
+    border: none;
+    color: #d3cfcfe0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+nav ul li button:hover {
+    background-color: #afa1a1;
+}
+
+main {
+    margin-top: 60px;
+}
+.centrado {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenido {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+.cambio-imagen:hover {
+    content: url('../Imagenes/gtr-r34\ back.jpg');  
+  }
+
+.cambio-imagen1:hover {
+    content: url('../Imagenes/mcp1.jpg'); 
+  }
+
+.cambio-imagen2:hover {
+    content: url('../Imagenes/f40\ back.jpg');
+  }
+
+  .cambio-imagen3:hover {
+    content: url('../Imagenes/chiron.jpg');
+  }
+ 
+/*PONER LAS IMAGENES*/
+  .cambio-imagen,.cambio-imagen1,
+  .cambio-imagen2,.cambio-imagen3 {
+    display: inline-block; /* Mostrar las imágenes en línea */
+    margin-right: 12px; /* Margen entre las imágenes */    
+    width: 250px; /* Ancho deseado */
+    height: auto; /* Altura ajustada automáticamente */
+  }
+  
+/*--------------------------------------------------------------------------------------------*/
